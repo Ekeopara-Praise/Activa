@@ -32,3 +32,6 @@ class ActivationFunction:
         file.close()
 
         self.data = data_list
+
+Af = ActivationFunction()
+print(Af.default_data)
