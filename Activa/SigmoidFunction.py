@@ -1,6 +1,7 @@
 import math
 import matplotlib.pyplot as plt
-from .GeneralFunctions import ActivationFunction
+import numpy as np
+from GeneralFunctions import ActivationFunction
 
 
 class Sigmoid(ActivationFunction):
@@ -13,22 +14,19 @@ class Sigmoid(ActivationFunction):
         derivative (bool): plot derivative function if True and don't plot if False.
     """
 
-    def __init__(self, default_data=None):
-
+    def __init__(self, data=None):
         ActivationFunction.__init__(self, default_data=None)
+        self.data = data
 
-    def sigmoid_values(self, data=None):
+    @property
+    def sigmoid_values(self):
         """
         TODO -- Write documentation
         """
-        assert isinstance(data, str)
-
-        if data is None:
+        if self.data is None:
             self.data = self.default_data
-        else:
-            self.data = data
 
-        # TODO: Write the equation for ReLU function
+        return np.array([(1 / (1 + math.exp(-x))) for x in self.data])
 
     def sigmoid_plot(self, derivative=False):
         """
@@ -36,3 +34,10 @@ class Sigmoid(ActivationFunction):
         """
 
         # TODO: Write codes for visualizing the distribution
+        plt.plot(self.data, self.sigmoid_values)
+        plt.show()
+
+
+arr = np.linspace(-10, 10, 1000)
+sig = Sigmoid(arr)
+print(sig.sigmoid_plot(derivative=False))

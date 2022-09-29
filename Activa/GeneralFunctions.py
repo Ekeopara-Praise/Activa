@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class ActivationFunction:
 
     def __init__(self, default_data=None):
@@ -10,28 +13,28 @@ class ActivationFunction:
             """
 
         if default_data is None:
-            default_data = [-3, -2, -1, 0, 1, 2, 3]
+            default_data = np.array([-3, -2, -1, 0, 1, 2, 3])
         self.default_data = default_data
-        self.data = []
 
-    def read_data_file(self, file_name):
 
-        """
-        Arg:
-            file_name (string): name of the file to read data from
+    # def read_data_file(self, file_name):
+    #
+    #     """
+    #     Arg:
+    #         file_name (string): name of the file to read data from
+    #
+    #     Return:
+    #         None
+    #     """
+    #     with open(file_name) as file:
+    #         data_list = []
+    #         line = file.readline()
+    #         while line:
+    #             data_list.append(int(line))
+    #             line = file.readline()
+    #     file.close()
+    #
+    #     self.data = data_list
 
-        Return:
-            None
-        """
-        with open(file_name) as file:
-            data_list = []
-            line = file.readline()
-            while line:
-                data_list.append(int(line))
-                line = file.readline()
-        file.close()
-
-        self.data = data_list
-
-Af = ActivationFunction()
-print(Af.default_data)
+af = ActivationFunction()
+print(type(af.default_data))
