@@ -35,9 +35,14 @@ class Sigmoid(ActivationFunction):
 
         # TODO: Write codes for visualizing the distribution
         plt.plot(self.data, self.sigmoid_values)
+        plt.title("Sigmoid fxn")
+        plt.legend(["Sigmoid"])
+        plt.style.use('ggplot')
+        plt.xlabel("Sigmoid values")
+        plt.ylabel("Value points")
         plt.show()
 
 
 arr = np.linspace(-10, 10, 1000)
 sig = Sigmoid(arr)
-print(sig.sigmoid_plot(derivative=False))
+print(sig.sigmoid_values)
