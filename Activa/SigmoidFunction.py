@@ -32,17 +32,29 @@ class Sigmoid(ActivationFunction):
         """
         TODO -- Write documentation
         """
+        if derivative is not True:
+            plt.plot(self.data, self.sigmoid_values)
+            plt.title("Sigmoid fxn")
+            plt.legend(["Sigmoid"])
+            plt.style.use('ggplot')
+            plt.xlabel("Sigmoid values")
+            plt.ylabel("Value points")
+            plt.show()
 
-        # TODO: Write codes for visualizing the distribution
-        plt.plot(self.data, self.sigmoid_values)
-        plt.title("Sigmoid fxn")
-        plt.legend(["Sigmoid"])
-        plt.style.use('ggplot')
-        plt.xlabel("Sigmoid values")
-        plt.ylabel("Value points")
-        plt.show()
+        else:
+            derivative_val = np.array([(math.exp(x) / ((1 + math.exp(x)) ** 2)) for x in self.data])
+
+            # TODO: Write codes for visualizing the distribution
+            plt.plot(self.data, derivative_val)
+            plt.plot(self.data, self.sigmoid_values)
+            plt.title("Sigmoid fxn")
+            plt.legend(["Derivative", "Sigmoid"])
+            plt.style.use('ggplot')
+            plt.xlabel("Sigmoid values")
+            plt.ylabel("Value points")
+            plt.show()
 
 
 arr = np.linspace(-10, 10, 1000)
 sig = Sigmoid(arr)
-print(sig.sigmoid_values)
+print(sig.sigmoid_plot())
