@@ -19,6 +19,9 @@ class ReLU(ActivationFunction):
         ActivationFunction.__init__(self, default_data=None)
         self.data = data
 
+        if self.data is None:
+            self.data = self.default_data
+
     @property
     def relu_values(self):
         """
@@ -30,8 +33,6 @@ class ReLU(ActivationFunction):
             Returns:
                 numpy array: ReLU values of the data set
         """
-        if self.data is None:
-            self.data = self.default_data
 
         return np.maximum(0, self.data)
 
@@ -68,6 +69,7 @@ class ReLU(ActivationFunction):
             plt.show()
 
 
-arr = np.linspace(-10, 10, 1000)
-relu = ReLU(arr)
-print(relu.relu_plot(derivative=True))
+# arr = np.linspace(-10, 10, 1000)
+
+# relu = ReLU()
+# print(list(relu.relu_values))

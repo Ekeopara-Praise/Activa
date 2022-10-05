@@ -1,8 +1,10 @@
 import pandas as pd
-import numpy as np
 from GeneralFunctions import ActivationFunction
 from SigmoidFunction import Sigmoid
 from ReLUFunction import ReLU
+from TanhFunction import Tanh
+from SoftplusFunction import Softplus
+from GaussianFunction import Gaussian
 
 
 class Table(ActivationFunction):
@@ -19,6 +21,9 @@ class Table(ActivationFunction):
         ActivationFunction.__init__(self, default_data=None)
         self.data = data
 
+        if self.data is None:
+            self.data = self.default_data
+
     @property
     def show(self):
         """
@@ -31,17 +36,21 @@ class Table(ActivationFunction):
                    pandas dataframe: actual values vs all activation values.
                """
 
-        if self.data is None:
-            self.data = self.default_data
-
         s = Sigmoid(self.data)
         r = ReLU(self.data)
+        t = Tanh(self.data)
+        sp = Softplus(self.data)
+        g = Gaussian(self.data)
+
         dataframe = pd.DataFrame({"actual_values": self.data,
                                   "sigmoid": s.sigmoid_values,
-                                  "relu": r.relu_values})
+                                  "relu": r.relu_values,
+                                  "tanh": t.tanh_values,
+                                  "softplus": sp.softplus_values,
+                                  "gaussian": g.gaussian_values})
         return dataframe
 
 
-arr = np.linspace(-10, 10, 1000)
-t = Table(arr)
-print(t.show.head(5))
+# # arr = np.linspace(-10, 10, 1000)
+# t = Table()
+# print(t.show)

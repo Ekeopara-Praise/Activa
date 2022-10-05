@@ -19,6 +19,9 @@ class Sigmoid(ActivationFunction):
         ActivationFunction.__init__(self, default_data=None)
         self.data = data
 
+        if self.data is None:
+            self.data = self.default_data
+
     @property
     def sigmoid_values(self):
 
@@ -31,9 +34,6 @@ class Sigmoid(ActivationFunction):
             Returns:
                 numpy array: sigmoid values of the data set
         """
-
-        if self.data is None:
-            self.data = self.default_data
 
         return np.array([(1 / (1 + math.exp(-x))) for x in self.data])
 
@@ -71,6 +71,6 @@ class Sigmoid(ActivationFunction):
             plt.show()
 
 
-arr = np.linspace(-10, 10, 1000)
-sig = Sigmoid(arr)
-print(sig.sigmoid_plot(derivative=True))
+# arr = np.linspace(-10, 10, 1000)
+sig = Sigmoid()
+print(list(sig.sigmoid_values))

@@ -13,9 +13,9 @@ class ActivationFunction:
             """
 
         if default_data is None:
-            default_data = np.array([-3, -2, -1, 0, 1, 2, 3])
+            default_data = np.array([-1, 0, 1])
         self.default_data = default_data
 
 
-af = ActivationFunction()
-print(type(af.default_data))
+# af = ActivationFunction()
+# print(type(af.default_data))

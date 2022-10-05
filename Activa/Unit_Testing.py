@@ -1,8 +1,3 @@
-# Activa Python Package
-
-- work in progress...!
-
-```
 from ReLUFunction import ReLU
 from SigmoidFunction import Sigmoid
 from TanhFunction import Tanh
@@ -48,4 +43,3 @@ class TestTanh(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-```
