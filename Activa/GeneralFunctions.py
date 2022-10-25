@@ -16,6 +16,3 @@ class ActivationFunction:
             default_data = np.array([-1, 0, 1])
         self.default_data = default_data
 
-
-# af = ActivationFunction()
-# print(type(af.default_data))

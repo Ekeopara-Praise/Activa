@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05b54a83-face-4e87-9fd6-fb1db5dc1b12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GaussianFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftplusFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TanhFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Activa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComboTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComboTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneralFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneralFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReLUFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReLUFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SigmoidFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/SigmoidFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit_Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_Testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "C:/Users/Sir_Praise/Documents/Personal Lessons/Projects/OOP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "two.files.diff.last.used.file": "C:/Users/Sir_Praise/Documents/Personal Lessons/Projects/OOP/Activa/Setup.py"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Activa" />
@@ -112,6 +115,11 @@
       <workItem from="1665000595796" duration="240000" />
       <workItem from="1665000854536" duration="11000" />
       <workItem from="1665000881362" duration="578000" />
+      <workItem from="1665001811826" duration="321000" />
+      <workItem from="1665988142202" duration="844000" />
+      <workItem from="1666278531799" duration="1559000" />
+      <workItem from="1666659425180" duration="336000" />
+      <workItem from="1666660226752" duration="1161000" />
     </task>
     <servers />
   </component>
@@ -131,6 +139,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Activa$GeneralFunctions.coverage" NAME="GeneralFunctions Coverage Results" MODIFIED="1664275171833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Activa$.coverage" NAME=" Coverage Results" MODIFIED="1665001227587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Activa$.coverage" NAME=" Coverage Results" MODIFIED="1666660338747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
