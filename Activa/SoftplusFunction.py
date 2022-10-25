@@ -1,4 +1,4 @@
-from GeneralFunctions import ActivationFunction
+from .GeneralFunctions import ActivationFunction
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -67,9 +67,3 @@ class Softplus(ActivationFunction):
             plt.xlabel("Softplus values")
             plt.ylabel("Value points")
             plt.show()
-
-
-# arr = np.linspace(-10, 10, 1000)
-sp = Softplus()
-print(list(sp.softplus_values))
-

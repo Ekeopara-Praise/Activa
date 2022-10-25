@@ -1,4 +1,4 @@
-from GeneralFunctions import ActivationFunction
+from .GeneralFunctions import ActivationFunction
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -68,8 +68,3 @@ class Tanh(ActivationFunction):
             plt.xlabel("Tanh values")
             plt.ylabel("Value points")
             plt.show()
-
-
-# arr = np.linspace(-10, 10, 1000)
-# tanh = Tanh()
-# print(list(tanh.tanh_values))

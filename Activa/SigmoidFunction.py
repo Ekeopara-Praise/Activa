@@ -1,7 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-from GeneralFunctions import ActivationFunction
+from .GeneralFunctions import ActivationFunction
 
 
 class Sigmoid(ActivationFunction):
@@ -70,7 +70,3 @@ class Sigmoid(ActivationFunction):
             plt.ylabel("Value points")
             plt.show()
 
-
-# arr = np.linspace(-10, 10, 1000)
-sig = Sigmoid()
-print(list(sig.sigmoid_values))

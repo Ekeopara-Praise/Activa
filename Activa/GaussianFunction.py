@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-from GeneralFunctions import ActivationFunction
+from .GeneralFunctions import ActivationFunction
 
 
 class Gaussian(ActivationFunction):
@@ -67,9 +67,3 @@ class Gaussian(ActivationFunction):
             plt.xlabel("Gaussian values")
             plt.ylabel("Value points")
             plt.show()
-
-
-# arr = np.linspace(-10, 10, 1000)
-# g = Gaussian()
-# print(list(g.gaussian_values))
-

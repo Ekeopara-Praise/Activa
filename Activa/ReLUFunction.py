@@ -1,7 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-from GeneralFunctions import ActivationFunction
+from .GeneralFunctions import ActivationFunction
 
 
 class ReLU(ActivationFunction):
@@ -68,8 +68,3 @@ class ReLU(ActivationFunction):
             plt.ylabel("Value points")
             plt.show()
 
-
-# arr = np.linspace(-10, 10, 1000)
-
-# relu = ReLU()
-# print(list(relu.relu_values))

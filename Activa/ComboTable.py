@@ -1,10 +1,10 @@
 import pandas as pd
-from GeneralFunctions import ActivationFunction
-from SigmoidFunction import Sigmoid
-from ReLUFunction import ReLU
-from TanhFunction import Tanh
-from SoftplusFunction import Softplus
-from GaussianFunction import Gaussian
+from .GeneralFunctions import ActivationFunction
+from .SigmoidFunction import Sigmoid
+from .ReLUFunction import ReLU
+from .TanhFunction import Tanh
+from .SoftplusFunction import Softplus
+from .GaussianFunction import Gaussian
 
 
 class Table(ActivationFunction):
@@ -49,8 +49,3 @@ class Table(ActivationFunction):
                                   "softplus": sp.softplus_values,
                                   "gaussian": g.gaussian_values})
         return dataframe
-
-
-# # arr = np.linspace(-10, 10, 1000)
-# t = Table()
-# print(t.show)
