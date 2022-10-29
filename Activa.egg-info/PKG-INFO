@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: Activa
+Version: 1.0.5
+Summary: Activation Function Package
+Home-page: https://github.com/Ekeopara-Praise/Activa
+Author: Praise Ekeopara
+Author-email: ekeoparapraise@gmail.com
+Project-URL: Bug Tracker, https://github.com/Ekeopara-Praise/Activa/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.txt
+
 Activa is a Python package that calculates the activation functions of a set of input 
 numerical values while outputting clear visualization of these values for further analysis.
 

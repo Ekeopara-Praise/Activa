@@ -1,0 +1,14 @@
+License.txt
+setup.py
+Activa/ComboTable.py
+Activa/GaussianFunction.py
+Activa/GeneralFunctions.py
+Activa/ReLUFunction.py
+Activa/SigmoidFunction.py
+Activa/SoftplusFunction.py
+Activa/TanhFunction.py
+Activa/__init__.py
+Activa.egg-info/PKG-INFO
+Activa.egg-info/SOURCES.txt
+Activa.egg-info/dependency_links.txt
+Activa.egg-info/top_level.txt

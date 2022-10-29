@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05b54a83-face-4e87-9fd6-fb1db5dc1b12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Activa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneralFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneralFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_Testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/ComboTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/GaussianFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/GeneralFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/ReLUFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/SigmoidFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/SoftplusFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/TanhFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activa/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "C:/Users/Sir_Praise/Documents/Personal Lessons/Projects/OOP",
+    "last_opened_file_path": "C:/Users/Sir_Praise/Documents/Packages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,6 +123,7 @@
       <workItem from="1666278531799" duration="1559000" />
       <workItem from="1666659425180" duration="336000" />
       <workItem from="1666660226752" duration="1161000" />
+      <workItem from="1667003303485" duration="342000" />
     </task>
     <servers />
   </component>
