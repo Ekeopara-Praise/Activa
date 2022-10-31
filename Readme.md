@@ -61,7 +61,7 @@ Lets load our data for the example
 
 ### [ReLU](https://github.com/Ekeopara-Praise/Activa/blob/master/Activa/ReLUFunction.py)
 Next, we can now calculate the **ReLU values** for the data
-![https://github.com/Ekeopara-Praise/Activa/blob/master/.idea/ActivaPictures/ReLU%20values.PNG)
+![image.png](https://github.com/Ekeopara-Praise/Activa/blob/master/.idea/ActivaPictures/ReLU%20values.PNG)
 
 Also, we can make visualizations for both the ReLU function and its derivatives
 ![image.png](https://github.com/Ekeopara-Praise/Activa/blob/master/.idea/ActivaPictures/RELUplots.PNG)
