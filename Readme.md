@@ -13,7 +13,7 @@ First, install the library:
 $ pip install Activa
 ```
 
-## Example
+## Example 1 - Terminal
 For the example, we will be using the default data in the package, data = [-1, 0, 1]
 
 To import libraries
@@ -52,6 +52,30 @@ array([0.36787944, 1.        , 0.36787944])
 2              1  0.731059     1  0.761594  1.313262  0.367879
 
 ```
+## Example 2 - Jupyter notebook
+We start by importing the necessary libraries
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/imports.PNG)
 
-## More information
-Kindly checkout the [github repo](https://github.com/Ekeopara-Praise/Activa) for more updates
+Lets load our data for the example
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/data.PNG)
+
+### [ReLU](https://github.com/Ekeopara-Praise/Activa/blob/master/Activa/ReLUFunction.py)
+Next, we can now calculate the **ReLU values** for the data
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/ReLU%20values.PNG)
+
+Also, we can make visualizations for both the ReLU function and its derivatives
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/RELUplots.PNG)
+
+### [Sigmoid](https://github.com/Ekeopara-Praise/Activa/blob/master/Activa/SigmoidFunction.py)
+For the Sigmoid activation function, we can now also calculate the **Sigmoid values** for the data
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/SIgmoid.PNG)
+
+Also, we can make visualizations for both the Sigmoid function and its derivatives
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/Sigmoidplots.PNG)
+
+### [Comparison Table](https://github.com/Ekeopara-Praise/Activa/blob/master/Activa/ComboTable.py)
+We can also view the comparison table for all of the available activation functions across their actual values.
+![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/table.PNG)
+
+## Activa Updates
+Kindly checkout the [Package](https://pypi.org/project/Activa/) for more updates
