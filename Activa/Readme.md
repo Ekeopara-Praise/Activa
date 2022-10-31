@@ -54,7 +54,7 @@ array([0.36787944, 1.        , 0.36787944])
 ```
 ## Example 2 - Jupyter notebook
 We start by importing the necessary libraries
-![image.png](https://github.com/Ekeopara-Praise/Personal_Lessons/blob/master/Object%20Oriented%20Programming%20in%20Python/Unit_Testing/Activa%20-%20Pictures/imports.PNG)
+![image.png](https://github.com/Ekeopara-Praise/Activa/blob/master/.idea/ActivaPictures/imports.PNG)
 
 Lets load our data for the example
 ![image.png](https://github.com/Ekeopara-Praise/Activa/blob/master/.idea/ActivaPictures/data.PNG)
